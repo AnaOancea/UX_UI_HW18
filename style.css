@@ -18,6 +18,22 @@ header {
   font-family: sans-serif;
 }
 
+.column-layout {
+  max-width: 100 px;
+  margin: 0 px auto 0 auto;
+  line-height: 1.25;
+  padding: 0 px 0px;
+  display: flex;
+}
+
+.main-column {
+  flex: 2;
+}
+
+.main-column2 {
+  flex:1;
+}
+
 h1 { 
   color: white;
   font-size: 30px;
@@ -58,15 +74,30 @@ main {
   padding: 3px;
 }
 
+.container { 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 main {
   border: 2px solid red;
-  height: 110vh;
+  height: 150vh;
   background-color:darkslategray;
   opacity: 0.5;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+h5 { 
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  align align-items: center;
+}
+
 
 .footer {
   border: 2px solid red;
@@ -78,4 +109,10 @@ main {
   max-height: 100px;
   height: 100px;
   background-position: bottom;
+}
+#categoryGrid {
+  margin: 0px 5%
+  display: grid; 
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
