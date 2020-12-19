@@ -1,0 +1,52 @@
+/* Header Styles */
+.header {
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 100px;
+  height: 100px;
+  background-position: bottom;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+}
+#title {
+  color: navy;
+  font-family: sans-serif;
+}
+
+main { 
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.navbar {
+  color: navy;
+  font-family: sans-serif;
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+  padding: 3px;
+}
+main {
+  height: 90vh;
+  background-image: url("Screen Shot 2020-12-15 at 9.25.26 PM.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 100px;
+  height: 100px;
+  background-position: bottom;
+}
