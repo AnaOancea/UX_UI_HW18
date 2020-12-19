@@ -8,6 +8,7 @@
   background-position: bottom;
 }
 header {
+  border: 2px solid red;
     display: flex;
     justify-content: space-between;
   align-items: center;
@@ -17,11 +18,33 @@ header {
   font-family: sans-serif;
 }
 
-main { 
+h1 { 
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   font-family: sans-serif;
-  padding: 10px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: larger;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: medium;
+}
+
+h4 { 
+  font-style: italic;
+  font-size: small;
+  font-weight: 100;
+}
+
+main { 
+  padding: 30px;
+  margin-left: 50;
+  font-family: sans-serif;
+  color: white;
 }
 
 .navbar {
@@ -34,15 +57,21 @@ main {
   list-style: none;
   padding: 3px;
 }
+
 main {
-  height: 90vh;
-  background-image: url("Screen Shot 2020-12-15 at 9.25.26 PM.png");
+  border: 2px solid red;
+  height: 110vh;
+  background-color:darkslategray;
+  opacity: 0.5;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .footer {
+  border: 2px solid red;
+  max-height: 100px;
+  height: 100px;
   background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
